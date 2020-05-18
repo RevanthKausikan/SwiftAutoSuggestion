@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftAutoSuggestion_Example' do
+  pod 'SwiftAutoSuggestion', :path => '../'
+
+  target 'SwiftAutoSuggestion_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
