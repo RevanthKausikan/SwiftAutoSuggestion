@@ -1,0 +1,16 @@
+PODS:
+  - SwiftAutoSuggestion (0.1.0)
+
+DEPENDENCIES:
+  - SwiftAutoSuggestion (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftAutoSuggestion:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftAutoSuggestion: e3115a79fd15ddd7719ec44c37f537123c76a2a3
+
+PODFILE CHECKSUM: 2fc784cf44af4a9b3f216d7fa3514133748a9ca2
+
+COCOAPODS: 1.9.1

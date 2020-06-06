@@ -1,0 +1,6 @@
+framework module SwiftAutoSuggestion {
+  umbrella header "SwiftAutoSuggestion-umbrella.h"
+
+  export *
+  module * { export * }
+}
