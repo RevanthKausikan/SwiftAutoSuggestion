@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Example View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SwiftAutoSuggestion_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ExampleViewController" customModule="SwiftAutoSuggestion_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -20,11 +18,53 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WZV-c3-ChU">
+                                <rect key="frame" x="46" y="150" width="283" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldEditingChange:" destination="vXZ-lx-hvc" eventType="editingChanged" id="7qP-I4-TX3"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAG-P1-2xW">
+                                <rect key="frame" x="141" y="323.5" width="93.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yuE-xD-ORw" customClass="SwiftAutoSuggestionView" customModule="SwiftAutoSuggestion">
+                                <rect key="frame" x="66" y="189" width="243" height="124"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wAG-P1-2xW" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Beu-Lp-BFf"/>
+                            <constraint firstItem="yuE-xD-ORw" firstAttribute="top" secondItem="WZV-c3-ChU" secondAttribute="bottom" constant="5" id="FHC-3R-IFM"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="yuE-xD-ORw" secondAttribute="bottom" constant="354" id="OSY-Gd-BE6"/>
+                            <constraint firstItem="wAG-P1-2xW" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="R2X-GX-sV6"/>
+                            <constraint firstItem="WZV-c3-ChU" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" multiplier="0.5" id="Rh0-bn-E9u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yuE-xD-ORw" secondAttribute="trailing" constant="50" id="UGR-uj-b51"/>
+                            <constraint firstItem="yuE-xD-ORw" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="gab-fd-fr5"/>
+                            <constraint firstItem="WZV-c3-ChU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="hrY-aW-8lj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WZV-c3-ChU" secondAttribute="trailing" constant="30" id="oUs-pb-NKo"/>
+                            <constraint firstItem="yuE-xD-ORw" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="50" id="wms-21-mXt"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="autoSuggestionBottomConstraint" destination="OSY-Gd-BE6" id="Myh-tn-frw"/>
+                        <outlet property="autoSuggestionLeftConstraint" destination="wms-21-mXt" id="d7e-9T-z4f"/>
+                        <outlet property="autoSuggestionRightConstraint" destination="UGR-uj-b51" id="gBL-Ku-T2S"/>
+                        <outlet property="autoSuggestionTopConstraint" destination="FHC-3R-IFM" id="sas-KN-XRs"/>
+                        <outlet property="autoSuggestionView" destination="yuE-xD-ORw" id="inT-0r-Pqd"/>
+                        <outlet property="resultLabel" destination="wAG-P1-2xW" id="Ije-Fk-041"/>
+                        <outlet property="topTextField" destination="WZV-c3-ChU" id="lE6-6r-VYt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="86" y="100"/>
         </scene>
     </scenes>
 </document>

@@ -1,6 +1,6 @@
 # SwiftAutoSuggestion
 
-[![CI Status](https://img.shields.io/travis/Revanth-Kausikan/SwiftAutoSuggestion.svg?style=flat)](https://travis-ci.org/Revanth-Kausikan/SwiftAutoSuggestion)
+[![CI Status](https://img.shields.io/travis/RevanthKausikan/SwiftAutoSuggestion.svg?style=flat)](https://travis-ci.org/RevanthKausikan/SwiftAutoSuggestion)
 [![Version](https://img.shields.io/cocoapods/v/SwiftAutoSuggestion.svg?style=flat)](https://cocoapods.org/pods/SwiftAutoSuggestion)
 [![License](https://img.shields.io/cocoapods/l/SwiftAutoSuggestion.svg?style=flat)](https://cocoapods.org/pods/SwiftAutoSuggestion)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftAutoSuggestion.svg?style=flat)](https://cocoapods.org/pods/SwiftAutoSuggestion)
@@ -22,7 +22,7 @@ pod 'SwiftAutoSuggestion'
 
 ## Author
 
-Revanth-Kausikan, revanth.kausikan@freshworks.com
+Revanth Kausikan, revanth.k.h@gmail.com
 
 ## License
 

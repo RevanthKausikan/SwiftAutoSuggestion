@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C047E3C637AAC543E5A4D71C853EC4A /* SwiftAutoSuggestion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4425F34CC9A474153EB21EA2511FC9 /* SwiftAutoSuggestion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F6B2E6A43D45FF75DA9C658EB822496 /* SwiftAutoSuggestion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2455822C1E6C6995DFE64B27E6AB0465 /* SwiftAutoSuggestion-dummy.m */; };
+		2302049AE999B7014AE480F316A90DC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		2390F86A29583CFF3D2B2265920C95E6 /* SwiftAutoSuggestion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E05AB853A52E1CACD0C156573CF4DE36 /* SwiftAutoSuggestion-dummy.m */; };
+		5880AADBC6F0EED3182F049BE0B146C1 /* SwiftAutoSuggestion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AADD4ACB594CFEF6993DE0CFB947BF87 /* SwiftAutoSuggestion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BAB5D91B2970024A320CB23AC7C5527 /* Pods-SwiftAutoSuggestion_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F93BA269A85154FEEF84835ED3A8BA7 /* Pods-SwiftAutoSuggestion_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8822F4F23B59CD1454B01502E440E010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9865B967A795913623D1669CCEB17B8B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E2EE8C62C87A34A573E92DC3B6D7 /* ReplaceMe.swift */; };
+		8822F4F23B59CD1454B01502E440E010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		A25F62D6E5EDA40A664878EB02020F96 /* Pods-SwiftAutoSuggestion_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3765FB02C095011252C0BA66447A79 /* Pods-SwiftAutoSuggestion_Tests-dummy.m */; };
 		A407C80AB27C6B68135D24418389E218 /* Pods-SwiftAutoSuggestion_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73226AADCC3D9B2BFBC6FA947217DD87 /* Pods-SwiftAutoSuggestion_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A677452763D3C2CDECBDC6593C71C1FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A9A167128DAD2FCB3A908FB20CA83729 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A8199EBDBE2B6659EE47CA0463DA657C /* SwiftAutoSuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCCB55E178B6ABE607F14DE7179BEAB /* SwiftAutoSuggestionView.swift */; };
+		A9A167128DAD2FCB3A908FB20CA83729 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		B6FB27EE2E686E6475B642DAB8CDC2DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		D26D96185CCE723C54A0E44C2810373C /* Pods-SwiftAutoSuggestion_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C063737EF94936B6D6C4A2441BE33F32 /* Pods-SwiftAutoSuggestion_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -38,54 +39,56 @@
 
 /* Begin PBXFileReference section */
 		004D143C4BC9E6887547754751374001 /* Pods-SwiftAutoSuggestion_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAutoSuggestion_Example.modulemap"; sourceTree = "<group>"; };
-		0154482BB77B1B4DEAB269CC053FA2DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		04AE6F30EDEE5128498B3E6B897FBE10 /* SwiftAutoSuggestion-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftAutoSuggestion-Info.plist"; sourceTree = "<group>"; };
+		0F37DFFBF300EBDA6C9C9726281BE7A4 /* SwiftAutoSuggestion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAutoSuggestion.debug.xcconfig; sourceTree = "<group>"; };
 		1A28962AC69A42F995FCCC391DA4907E /* Pods-SwiftAutoSuggestion_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAutoSuggestion_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1CE0C7A63091C482535AF1FDC9C80E58 /* SwiftAutoSuggestion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAutoSuggestion.release.xcconfig; sourceTree = "<group>"; };
-		1FF0DBDDCC1D2CC1BBE68D66B05DF40D /* SwiftAutoSuggestion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAutoSuggestion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20A1C28D036565B83D631C351DA91E0D /* SwiftAutoSuggestion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAutoSuggestion.modulemap; sourceTree = "<group>"; };
-		2455822C1E6C6995DFE64B27E6AB0465 /* SwiftAutoSuggestion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAutoSuggestion-dummy.m"; sourceTree = "<group>"; };
+		1FF0DBDDCC1D2CC1BBE68D66B05DF40D /* SwiftAutoSuggestion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftAutoSuggestion.framework; path = SwiftAutoSuggestion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		253059E350180CD5FD4C403B3249FC67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2650C611D3CC47F16CC398B6953BA3FA /* Pods-SwiftAutoSuggestion_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAutoSuggestion_Tests-Info.plist"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3B0D5FB6C9A7557E0AEC824475C0C1BD /* Pods-SwiftAutoSuggestion_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAutoSuggestion_Example-Info.plist"; sourceTree = "<group>"; };
-		3B8FDC696FF50BB4752D592F17CD379A /* SwiftAutoSuggestion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAutoSuggestion-prefix.pch"; sourceTree = "<group>"; };
 		3F93BA269A85154FEEF84835ED3A8BA7 /* Pods-SwiftAutoSuggestion_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAutoSuggestion_Example-umbrella.h"; sourceTree = "<group>"; };
-		4A2E9E7179EABCEF0F35D3599555457C /* SwiftAutoSuggestion.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftAutoSuggestion.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4A3765FB02C095011252C0BA66447A79 /* Pods-SwiftAutoSuggestion_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAutoSuggestion_Tests-dummy.m"; sourceTree = "<group>"; };
-		4A42EF3BE05DFFA1BFD32D3D32EED783 /* Pods_SwiftAutoSuggestion_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAutoSuggestion_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D01E2EE8C62C87A34A573E92DC3B6D7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftAutoSuggestion/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4A42EF3BE05DFFA1BFD32D3D32EED783 /* Pods_SwiftAutoSuggestion_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftAutoSuggestion_Tests.framework; path = "Pods-SwiftAutoSuggestion_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF55BBD134AF5961BE2DC5B0DCE8A2E /* Pods-SwiftAutoSuggestion_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAutoSuggestion_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73226AADCC3D9B2BFBC6FA947217DD87 /* Pods-SwiftAutoSuggestion_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAutoSuggestion_Tests-umbrella.h"; sourceTree = "<group>"; };
 		82210D3521B9058952B9D8C77F21C237 /* Pods-SwiftAutoSuggestion_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAutoSuggestion_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		99ABFCEBA7299C948BDC5072813DFE57 /* Pods_SwiftAutoSuggestion_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAutoSuggestion_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		837CF5C2BBFE08C65971F0A1B8CB4B32 /* SwiftAutoSuggestion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAutoSuggestion.modulemap; sourceTree = "<group>"; };
+		99ABFCEBA7299C948BDC5072813DFE57 /* Pods_SwiftAutoSuggestion_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftAutoSuggestion_Example.framework; path = "Pods-SwiftAutoSuggestion_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FE2E587E02F477CD3CF5CA85CB36EC1 /* Pods-SwiftAutoSuggestion_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAutoSuggestion_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B5009C641CA81618338A9442582C21EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AADD4ACB594CFEF6993DE0CFB947BF87 /* SwiftAutoSuggestion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAutoSuggestion-umbrella.h"; sourceTree = "<group>"; };
+		ACCDF822DA07C4339DA2CE37F2DB2636 /* SwiftAutoSuggestion-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftAutoSuggestion-Info.plist"; sourceTree = "<group>"; };
+		BF6704505F383C8EABE39A3C5D7BC383 /* SwiftAutoSuggestion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAutoSuggestion-prefix.pch"; sourceTree = "<group>"; };
 		BF80DC9CA9D46951D23D70C24AE2B5D0 /* Pods-SwiftAutoSuggestion_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAutoSuggestion_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C063737EF94936B6D6C4A2441BE33F32 /* Pods-SwiftAutoSuggestion_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAutoSuggestion_Example-dummy.m"; sourceTree = "<group>"; };
 		C3B6E40A057D1310F285C47C1E4BE0BE /* Pods-SwiftAutoSuggestion_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAutoSuggestion_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C729D29FDBDB5AF73D0EE6332102840D /* SwiftAutoSuggestion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAutoSuggestion.debug.xcconfig; sourceTree = "<group>"; };
+		CBCCB55E178B6ABE607F14DE7179BEAB /* SwiftAutoSuggestionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAutoSuggestionView.swift; path = SwiftAutoSuggestion/Classes/SwiftAutoSuggestionView.swift; sourceTree = "<group>"; };
+		CCDA19CC6A5131B7CE7C33775447A02F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CF92029C30D8D750930BF744FF707C03 /* Pods-SwiftAutoSuggestion_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAutoSuggestion_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D04B2D55D3460658B4F96E4499131AD1 /* Pods-SwiftAutoSuggestion_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAutoSuggestion_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D0C187BDFB83F884B88256DA28915951 /* Pods-SwiftAutoSuggestion_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAutoSuggestion_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D24F4A09DFEA51099BB91612B2F35F3F /* Pods-SwiftAutoSuggestion_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAutoSuggestion_Tests.modulemap"; sourceTree = "<group>"; };
-		EF4425F34CC9A474153EB21EA2511FC9 /* SwiftAutoSuggestion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAutoSuggestion-umbrella.h"; sourceTree = "<group>"; };
+		D86094BB06D13FD166AB73DF5BB379AB /* SwiftAutoSuggestion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAutoSuggestion.release.xcconfig; sourceTree = "<group>"; };
+		E05AB853A52E1CACD0C156573CF4DE36 /* SwiftAutoSuggestion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAutoSuggestion-dummy.m"; sourceTree = "<group>"; };
+		E44182D839585BE717315A3483459AD6 /* SwiftAutoSuggestion.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftAutoSuggestion.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		066FA6F97636C268AB936F6F0AC56256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2302049AE999B7014AE480F316A90DC1 /* Foundation.framework in Frameworks */,
+				B6FB27EE2E686E6475B642DAB8CDC2DE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FA7DB6D37F4364678A8EEEB789B6B9D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A9A167128DAD2FCB3A908FB20CA83729 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D20CE0CCCD2A76F701ACF956D6B19CB2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A677452763D3C2CDECBDC6593C71C1FD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,12 +103,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		030852C7F243A668478BD6FD8FE1925C /* SwiftAutoSuggestion */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4D01E2EE8C62C87A34A573E92DC3B6D7 /* ReplaceMe.swift */,
-				ACEED1ACD4E4965A0C568143BDE9D235 /* Pod */,
-				69A0C4831EA0DBCCE80C94FE5C4595DB /* Support Files */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29167BBE76DE9BA69EBC64B9F910BBEB /* SwiftAutoSuggestion */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCB55E178B6ABE607F14DE7179BEAB /* SwiftAutoSuggestionView.swift */,
+				F585F84C324948A268F1142C03ACD6D0 /* Pod */,
+				3F1569102E4859D94AA2ED6A5785FD6E /* Support Files */,
 			);
 			name = SwiftAutoSuggestion;
 			path = ../..;
@@ -118,6 +129,21 @@
 				43034F0EA2B14FCD0F48E2AC0D187670 /* Pods-SwiftAutoSuggestion_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3F1569102E4859D94AA2ED6A5785FD6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				837CF5C2BBFE08C65971F0A1B8CB4B32 /* SwiftAutoSuggestion.modulemap */,
+				E05AB853A52E1CACD0C156573CF4DE36 /* SwiftAutoSuggestion-dummy.m */,
+				ACCDF822DA07C4339DA2CE37F2DB2636 /* SwiftAutoSuggestion-Info.plist */,
+				BF6704505F383C8EABE39A3C5D7BC383 /* SwiftAutoSuggestion-prefix.pch */,
+				AADD4ACB594CFEF6993DE0CFB947BF87 /* SwiftAutoSuggestion-umbrella.h */,
+				0F37DFFBF300EBDA6C9C9726281BE7A4 /* SwiftAutoSuggestion.debug.xcconfig */,
+				D86094BB06D13FD166AB73DF5BB379AB /* SwiftAutoSuggestion.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftAutoSuggestion";
 			sourceTree = "<group>";
 		};
 		43034F0EA2B14FCD0F48E2AC0D187670 /* Pods-SwiftAutoSuggestion_Tests */ = {
@@ -153,25 +179,10 @@
 			path = "Target Support Files/Pods-SwiftAutoSuggestion_Example";
 			sourceTree = "<group>";
 		};
-		69A0C4831EA0DBCCE80C94FE5C4595DB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				20A1C28D036565B83D631C351DA91E0D /* SwiftAutoSuggestion.modulemap */,
-				2455822C1E6C6995DFE64B27E6AB0465 /* SwiftAutoSuggestion-dummy.m */,
-				04AE6F30EDEE5128498B3E6B897FBE10 /* SwiftAutoSuggestion-Info.plist */,
-				3B8FDC696FF50BB4752D592F17CD379A /* SwiftAutoSuggestion-prefix.pch */,
-				EF4425F34CC9A474153EB21EA2511FC9 /* SwiftAutoSuggestion-umbrella.h */,
-				C729D29FDBDB5AF73D0EE6332102840D /* SwiftAutoSuggestion.debug.xcconfig */,
-				1CE0C7A63091C482535AF1FDC9C80E58 /* SwiftAutoSuggestion.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SwiftAutoSuggestion";
-			sourceTree = "<group>";
-		};
 		6B4491D3378E26A0C287BB459F569426 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				030852C7F243A668478BD6FD8FE1925C /* SwiftAutoSuggestion */,
+				29167BBE76DE9BA69EBC64B9F910BBEB /* SwiftAutoSuggestion */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -186,41 +197,34 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ACEED1ACD4E4965A0C568143BDE9D235 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0154482BB77B1B4DEAB269CC053FA2DC /* LICENSE */,
-				B5009C641CA81618338A9442582C21EF /* README.md */,
-				4A2E9E7179EABCEF0F35D3599555457C /* SwiftAutoSuggestion.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				6B4491D3378E26A0C287BB459F569426 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				8349F9D1CBABA4DB7D934B3232FEBAF5 /* Products */,
 				33CE15E762F24282F1A9356162E734D3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F585F84C324948A268F1142C03ACD6D0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CCDA19CC6A5131B7CE7C33775447A02F /* LICENSE */,
+				253059E350180CD5FD4C403B3249FC67 /* README.md */,
+				E44182D839585BE717315A3483459AD6 /* SwiftAutoSuggestion.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,19 +238,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2567FAFB733EF21AEC945D06F9F02EB5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C047E3C637AAC543E5A4D71C853EC4A /* SwiftAutoSuggestion-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80AEAEAB3BE1DD4452A69BF17D765282 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A407C80AB27C6B68135D24418389E218 /* Pods-SwiftAutoSuggestion_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC29773D73BFB8B0BD3A3A84670D2D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5880AADBC6F0EED3182F049BE0B146C1 /* SwiftAutoSuggestion-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,12 +278,12 @@
 		};
 		6CEB1E377F6BB9064F15459747C91A28 /* SwiftAutoSuggestion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73B77EF7C8486353ACABCEE707276875 /* Build configuration list for PBXNativeTarget "SwiftAutoSuggestion" */;
+			buildConfigurationList = 5A43C62268B9B68BA71A55936133A887 /* Build configuration list for PBXNativeTarget "SwiftAutoSuggestion" */;
 			buildPhases = (
-				2567FAFB733EF21AEC945D06F9F02EB5 /* Headers */,
-				8819DE15E262E26AC608CBC8EF46FADE /* Sources */,
-				D20CE0CCCD2A76F701ACF956D6B19CB2 /* Frameworks */,
-				06CBC7843DAADC2C529D727EAB7142F8 /* Resources */,
+				9DC29773D73BFB8B0BD3A3A84670D2D0 /* Headers */,
+				71E0467E6E787BBAC1F8ABAD68520BAC /* Sources */,
+				066FA6F97636C268AB936F6F0AC56256 /* Frameworks */,
+				DF0D60101CA5D07BC496A03474734EF8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -317,11 +321,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					6CEB1E377F6BB9064F15459747C91A28 = {
-						LastSwiftMigration = 1130;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -344,13 +343,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		06CBC7843DAADC2C529D727EAB7142F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8C14ACE4AB1171153EE730FE32E3CB8D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,15 +357,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF0D60101CA5D07BC496A03474734EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8819DE15E262E26AC608CBC8EF46FADE /* Sources */ = {
+		71E0467E6E787BBAC1F8ABAD68520BAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9865B967A795913623D1669CCEB17B8B /* ReplaceMe.swift in Sources */,
-				2F6B2E6A43D45FF75DA9C658EB822496 /* SwiftAutoSuggestion-dummy.m in Sources */,
+				2390F86A29583CFF3D2B2265920C95E6 /* SwiftAutoSuggestion-dummy.m in Sources */,
+				A8199EBDBE2B6659EE47CA0463DA657C /* SwiftAutoSuggestionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,108 +410,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D0018666091E28E4B2CF0366F9EE978 /* Debug */ = {
+		1BC41A057C5A32A047AF68A69E9C17D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C729D29FDBDB5AF73D0EE6332102840D /* SwiftAutoSuggestion.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftAutoSuggestion/SwiftAutoSuggestion-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftAutoSuggestion/SwiftAutoSuggestion-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftAutoSuggestion/SwiftAutoSuggestion.modulemap";
-				PRODUCT_MODULE_NAME = SwiftAutoSuggestion;
-				PRODUCT_NAME = SwiftAutoSuggestion;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3F127B33557B489376531EA604F5389D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CF55BBD134AF5961BE2DC5B0DCE8A2E /* Pods-SwiftAutoSuggestion_Tests.release.xcconfig */;
+			baseConfigurationReference = CF92029C30D8D750930BF744FF707C03 /* Pods-SwiftAutoSuggestion_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAutoSuggestion_Tests/Pods-SwiftAutoSuggestion_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAutoSuggestion_Tests/Pods-SwiftAutoSuggestion_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		413ACFCA46B6DF3EF7AE7695FF357CDF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CE0C7A63091C482535AF1FDC9C80E58 /* SwiftAutoSuggestion.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftAutoSuggestion/SwiftAutoSuggestion-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftAutoSuggestion/SwiftAutoSuggestion-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftAutoSuggestion/SwiftAutoSuggestion.modulemap";
-				PRODUCT_MODULE_NAME = SwiftAutoSuggestion;
-				PRODUCT_NAME = SwiftAutoSuggestion;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		70FE0CD9D8211DD93E63A5193C33BADE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D04B2D55D3460658B4F96E4499131AD1 /* Pods-SwiftAutoSuggestion_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -524,7 +428,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAutoSuggestion_Example/Pods-SwiftAutoSuggestion_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAutoSuggestion_Example/Pods-SwiftAutoSuggestion_Example.modulemap";
@@ -536,45 +440,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		9BA44FBF62C4FD99A411CF8368E72AEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0C187BDFB83F884B88256DA28915951 /* Pods-SwiftAutoSuggestion_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAutoSuggestion_Tests/Pods-SwiftAutoSuggestion_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAutoSuggestion_Tests/Pods-SwiftAutoSuggestion_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -622,18 +494,123 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		2FA68FC690D17B7DD1B135D97C31B5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF55BBD134AF5961BE2DC5B0DCE8A2E /* Pods-SwiftAutoSuggestion_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAutoSuggestion_Tests/Pods-SwiftAutoSuggestion_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAutoSuggestion_Tests/Pods-SwiftAutoSuggestion_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9EC31A17F2D760317480712518629E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F37DFFBF300EBDA6C9C9726281BE7A4 /* SwiftAutoSuggestion.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAutoSuggestion/SwiftAutoSuggestion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAutoSuggestion/SwiftAutoSuggestion-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftAutoSuggestion/SwiftAutoSuggestion.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAutoSuggestion;
+				PRODUCT_NAME = SwiftAutoSuggestion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD94DC30FF9E2D32F5FDDE326F6AE71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04B2D55D3460658B4F96E4499131AD1 /* Pods-SwiftAutoSuggestion_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAutoSuggestion_Example/Pods-SwiftAutoSuggestion_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAutoSuggestion_Example/Pods-SwiftAutoSuggestion_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -684,7 +661,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -697,11 +674,12 @@
 			};
 			name = Debug;
 		};
-		EF7D7F8264E8E65F0853824583120104 /* Release */ = {
+		E0C60AE67D791CE256EBAF49BDFE4DC0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF92029C30D8D750930BF744FF707C03 /* Pods-SwiftAutoSuggestion_Example.release.xcconfig */;
+			baseConfigurationReference = D86094BB06D13FD166AB73DF5BB379AB /* SwiftAutoSuggestion.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -711,12 +689,47 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAutoSuggestion_Example/Pods-SwiftAutoSuggestion_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAutoSuggestion/SwiftAutoSuggestion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAutoSuggestion/SwiftAutoSuggestion-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftAutoSuggestion/SwiftAutoSuggestion.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAutoSuggestion;
+				PRODUCT_NAME = SwiftAutoSuggestion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F91958B49FCB628C458FCD79BE967E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C187BDFB83F884B88256DA28915951 /* Pods-SwiftAutoSuggestion_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAutoSuggestion_Tests/Pods-SwiftAutoSuggestion_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAutoSuggestion_Example/Pods-SwiftAutoSuggestion_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAutoSuggestion_Tests/Pods-SwiftAutoSuggestion_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -725,11 +738,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -737,17 +749,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73B77EF7C8486353ACABCEE707276875 /* Build configuration list for PBXNativeTarget "SwiftAutoSuggestion" */ = {
+		5A43C62268B9B68BA71A55936133A887 /* Build configuration list for PBXNativeTarget "SwiftAutoSuggestion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D0018666091E28E4B2CF0366F9EE978 /* Debug */,
-				413ACFCA46B6DF3EF7AE7695FF357CDF /* Release */,
+				9EC31A17F2D760317480712518629E6E /* Debug */,
+				E0C60AE67D791CE256EBAF49BDFE4DC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -755,8 +767,8 @@
 		9DCE171974F7E3574387DCB15785C494 /* Build configuration list for PBXNativeTarget "Pods-SwiftAutoSuggestion_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BA44FBF62C4FD99A411CF8368E72AEA /* Debug */,
-				3F127B33557B489376531EA604F5389D /* Release */,
+				F91958B49FCB628C458FCD79BE967E05 /* Debug */,
+				2FA68FC690D17B7DD1B135D97C31B5AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -764,8 +776,8 @@
 		F4B2F528050FD2B924B19B28F84E8CE2 /* Build configuration list for PBXNativeTarget "Pods-SwiftAutoSuggestion_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70FE0CD9D8211DD93E63A5193C33BADE /* Debug */,
-				EF7D7F8264E8E65F0853824583120104 /* Release */,
+				AD94DC30FF9E2D32F5FDDE326F6AE71F /* Debug */,
+				1BC41A057C5A32A047AF68A69E9C17D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

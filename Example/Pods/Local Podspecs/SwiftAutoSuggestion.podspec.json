@@ -1,22 +1,23 @@
 {
   "name": "SwiftAutoSuggestion",
   "version": "0.1.0",
-  "summary": "A short description of SwiftAutoSuggestion.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Revanth-Kausikan/SwiftAutoSuggestion",
+  "summary": "SwiftAutoSuggestion gives a pop up view for contextual autocomplete suggestions",
+  "description": "'SwiftAutoSuggestion can be used to diplay a list of items with UI similar to a context menu. Primarily it can be used to display autocomplete suggestion texts.'",
+  "homepage": "https://github.com/RevanthKausikan/SwiftAutoSuggestion",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Revanth-Kausikan": "revanth.kausikan@freshworks.com"
+    "Revanth Kausikan": "revanth.k.h@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Revanth-Kausikan/SwiftAutoSuggestion.git",
+    "git": "https://github.com/RevanthKausikan/SwiftAutoSuggestion",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "SwiftAutoSuggestion/Classes/**/*"
+  "source_files": "SwiftAutoSuggestion/Classes/**/*",
+  "frameworks": "UIKit"
 }

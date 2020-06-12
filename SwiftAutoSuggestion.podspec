@@ -9,6 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftAutoSuggestion'
   s.version          = '0.1.0'
+  s.swift_version    = '5'
   s.summary          = 'SwiftAutoSuggestion gives a pop up view for contextual autocomplete suggestions'
 
 # This description is used to generate tags and improve search results.
@@ -24,11 +25,11 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/RevanthKausikan/SwiftAutoSuggestion'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Revanth-Kausikan' => 'revanth.kausikan@freshworks.com' }
-  s.source           = { :git => 'https://github.com/RevanthKausikan/SwiftAutoSuggestion', :tag => s.version.to_s }
+  s.author           = { 'Revanth Kausikan' => 'revanth.k.h@gmail.com' }
+  s.source           = { :git => 'https://github.com/RevanthKausikan/SwiftAutoSuggestion.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'SwiftAutoSuggestion/Classes/**/*'
   

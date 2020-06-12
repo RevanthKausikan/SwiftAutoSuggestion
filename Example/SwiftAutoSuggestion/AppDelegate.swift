@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SwiftAutoSuggestion
 //
-//  Created by Revanth-Kausikan on 05/18/2020.
-//  Copyright (c) 2020 Revanth-Kausikan. All rights reserved.
+//  Created by Revanth Kausikan on 05/18/2020.
+//  Copyright (c) 2020 Revanth Kausikan. All rights reserved.
 //
 
 import UIKit
